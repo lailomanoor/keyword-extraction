@@ -8,6 +8,7 @@ from PyPDF2 import PdfReader  # Import PDF reader
 # Download required NLTK data
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # Setup stopwords
 reserved_stop_words = set(stopwords.words('english'))
